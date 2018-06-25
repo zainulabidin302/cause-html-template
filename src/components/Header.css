@@ -1,0 +1,45 @@
+.Header {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 80px;
+    padding-top: 20px;
+}
+.Header .menu {
+    display: inline-block;
+    margin: 4px;
+    vertical-align: top;
+    line-height: 2.5em;
+}
+.Header ul.menu li {
+    display: inline-block;
+    margin-left: 10px;
+}
+.Header .logo {
+    display: inline-block;
+    flex-grow: 1;
+}
+
+.Header .main-menu {
+    flex-grow: 3;
+}
+.Header .login-menu {
+    flex-grow: 1;
+}
+.Header .bars {
+    display: none;
+    vertical-align: top;
+    line-height: 2.5em;
+    flex-grow: 0;
+}
+
+@media screen and (max-width: 800px) {
+    .Header .main-menu, .Header .login-menu {
+        display: none;    
+    } 
+    .Header .bars {
+        display: inline-block;
+    }
+    
+}

@@ -1,0 +1,15 @@
+.Slider .hero-image {
+    width: 100%;
+    min-height: 250px;
+    background-image: url("/images/hero_mobile_04_05.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+   
+}
+
+@media screen and (min-width: 450px) {
+    .Slider .hero-image {
+        background-image: url("/images/hero_03.png");
+    }
+}

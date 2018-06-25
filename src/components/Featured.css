@@ -1,0 +1,25 @@
+.Featured {
+    background: #eeeeee;
+    padding: 20px;
+}
+.Featured .cards-container {
+    padding: 2%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Featured > h1 {
+    font-weight: 100;
+} 
+.Featured .thirds {
+    width: 100%;
+}
+@media screen and (min-width: 800px) {
+    .Featured .thirds {
+        width: 30%;
+        
+        margin: 1% auto;
+    }
+    
+} 
