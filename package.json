@@ -1,6 +1,7 @@
 {
   "name": "mycause",
   "version": "0.1.0",
+  "homepage": "https://zainulabidin302.github.io/cause-html-template",
   "private": true,
   "dependencies": {
     "react": "^16.4.1",
