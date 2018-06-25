@@ -1,4 +1,17 @@
 .App {
   text-align: center;
+  margin: auto;
 }
 
+.featured-absolute-positioning {
+  position: relative;
+}
+
+.featured-absolute-positioning-inner {
+  position: absolute;
+  top:-100px;
+  width: 70%;
+  left: 15%;
+  z-index: 90;
+  background: white;
+}

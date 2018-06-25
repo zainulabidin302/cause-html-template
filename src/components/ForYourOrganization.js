@@ -1,24 +1,28 @@
 import React, { Component } from 'react';
-
-var ForYourOrganization = () => (<div>
+import "./ForYourOrganization.css";
+var ForYourOrganization = () => (<div className="ForYourOrganization">
     <h2>FOR YOUR ORGANIZATION</h2>
     <ul>
         <li>
-            School
+            <img src="/images/how_it_works_57.png" /> <br/>
+            <div className="text">School</div>
         </li>
         <li>
-            club
+            <img src="/images/how_it_works_59.png" /> <br/>
+            <div className="text">club</div>
         </li>
         <li>
-            charity & NPFs
+            <img src="/images/how_it_works_61.png" /> <br/>
+            <div className="text"> charity & NPFs</div>
         </li>
         <li>
-            event manager
+            <img src="/images/how_it_works_63.png" /> <br/>
+            <div className="text">event manager</div>
         </li>
         <li>
-            Corporate
+            <img src="/images/how_it_works_65.png" /> <br/>
+            <div className="text">Corporate</div>
         </li>
-
     </ul>
 </div>);
 

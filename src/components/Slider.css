@@ -1,5 +1,6 @@
 .Slider .hero-image {
     width: 100%;
+    
     min-height: 250px;
     background-image: url("/images/hero_mobile_04_05.png");
     background-repeat: no-repeat;

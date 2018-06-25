@@ -1,1 +1,40 @@
-.Card {}
+.Card {
+    background: white;
+    margin: auto;
+}
+.Card .title {
+    width: 95%;
+    color: #419885;
+    padding: 10px;
+}
+.Card .goals-and-donation {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    font-size: 12px;
+    padding: 2%;  
+}
+.Card .goals-and-donation > div {
+    flex-grow: 1;
+    
+}
+.Card .goals-and-donation > div:first-child {
+    text-align: left;
+    
+}
+.Card .goals-and-donation > div:last-child {
+    text-align: right;
+    
+}
+
+@media screen and (min-width: 400px) and (max-width: 800px) {
+    .Card  {
+        width: 70%;
+        margin-top: 4%;
+    }
+}
+@media screen and (max-width: 400px){
+    .Card  {
+        margin-top: 4%;
+    }
+}

@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
+import "./Footer.css";
+import FontAwsome from 'react-fontawesome';
 
-var Footer = () => (<div>
+var Footer = () => (<div className="Footer">
+
+    <div className="inner">
     <div>
     <h3>FOR YOU</h3>
         <ul>
@@ -33,11 +37,12 @@ var Footer = () => (<div>
                 <li>blog & press</li>
         </ul>
     </div>
-    <div>
-        <h3>Follow</h3>
-        Follow inspiring causes with mycause
+    <div className="subscribe">
+        <h2 >Follow inspiring cause with mycause</h2>
         <input type="text" />
         <button>Subscribe</button>
+
+        </div>
     </div>
 </div>);
 

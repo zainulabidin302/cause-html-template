@@ -1,0 +1,15 @@
+.Partners ul li {
+    display: inline-block;
+}
+.Partners h2, .Partners h3 {
+    margin:0;
+    padding: 0;
+    padding: 2%;
+    font-size:  1.5em;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 0.5em;
+}
+
+.Partners button {
+    margin: 2%;
+}

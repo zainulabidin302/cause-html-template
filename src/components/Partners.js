@@ -1,24 +1,28 @@
 import React, { Component } from 'react';
+import "./Partners.css";
 
-var Partners = () => <div>
+var Partners = () => <div className="Partners">
     <h2>OUR CHARITY PARTNERS</h2>
-    <p>crowdfunding and online fundraising for any Australian charity</p>
+    <h3>crowdfunding and online fundraising for any Australian charity</h3>
 
     <ul>
         <li>
-            Sane
+            <img src="images/how_it_works_40.png" />
         </li>
         <li>
-            Food Share
+            <img src="images/how_it_works_42.png" />
         </li>
         <li>
-            Operation Flinders
+            <img src="images/how_it_works_37.png" />
         </li>
         <li>
-            Operation Flinders
+            <img src="images/how_it_works_44.png" />
         </li>
         <li>
-            Operation Flinders
+            <img src="images/how_it_works_46.png" />
+        </li>
+        <li>
+            <img src="images/how_it_works_48.png" />
         </li>
     </ul>
 

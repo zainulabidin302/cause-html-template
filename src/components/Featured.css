@@ -1,25 +1,41 @@
 .Featured {
     background: #eeeeee;
     padding: 20px;
+    
 }
 .Featured .cards-container {
+    margin: auto;
+    max-width: 1200px;
     padding: 2%;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 
-.Featured > h1 {
-    font-weight: 100;
+.Featured h2 {
+    font-weight: lighter;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
 } 
 .Featured .thirds {
     width: 100%;
 }
+.compaign-button {
+    margin: 18% 0 38% 0;
+}
+@media screen and (min-width: 700px) and (max-width:800px) {
+
+.compaign-button {
+    margin: 8% 0 20% 0;
+}
+}
+
 @media screen and (min-width: 800px) {
     .Featured .thirds {
         width: 30%;
-        
         margin: 1% auto;
     }
-    
+    .compaign-button {
+        margin: 3% 0 12% 0;
+    }
 } 

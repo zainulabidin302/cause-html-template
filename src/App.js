@@ -10,6 +10,7 @@ import HowItWorks from './components/HowItWorks';
 import Partners from './components/Partners';
 import ForYourOrganization from './components/ForYourOrganization';
 import Footer from './components/Footer';
+import CopyRight from './components/CopyRight';
 
 class App extends Component {
   render() {
@@ -19,11 +20,16 @@ class App extends Component {
         <Slider />
         <Stats />
         <Featured />
+        <div className="featured-absolute-positioning">
+          <div className="featured-absolute-positioning-inner">
         <FundRaisingIdea />
+          </div>
+        </div>
         <HowItWorks />
         <Partners />
         <ForYourOrganization />
         <Footer />
+        {/* <CopyRight /> */}
       </div>
     );
   }

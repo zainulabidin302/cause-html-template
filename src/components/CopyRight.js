@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-var HowItWorks = () => (<div>
+var CopyRight = () => (<div>
    Logo  
    <ul>
        <li>terms & conditions</li>
@@ -10,4 +10,4 @@ var HowItWorks = () => (<div>
     <p>copyright @2018 all rights reserved</p>
 </div>);
 
-export default HowItWorks;
+export default CopyRight;

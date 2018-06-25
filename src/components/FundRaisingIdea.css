@@ -1,4 +1,58 @@
+.FundRaisingIdea {
+    padding: 3% 0 8% 0 ;
+}
+
 .FundRaisingIdea ul li {
     display: inline-block;
-    margin: 5px;
+    margin: 1%;
+    width: 12%;
+    min-width: 70px;
+    vertical-align: top;
+}
+.FundRaisingIdea .text {
+    height: 100px;
+}
+.FundRaisingIdea ul li img {
+    width: 80%;
+}
+
+.FundRaisingIdea h2 {
+    padding: 2%;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+}
+.FundRaisingIdea button {
+    background: white;
+    border: 1px solid #42ccae;
+    font-weight: lighter;
+    font-size: 1.2em;
+    color: #404041;
+    width:20%;
+}
+
+@media screen and (max-width: 800px) {
+    .FundRaisingIdea ul li {
+        width: 24%;
+    }
+    .FundRaisingIdea button {
+        width:40%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .FundRaisingIdea ul li {
+        width: 36%;
+    }
+    .FundRaisingIdea button {
+        width:60%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .FundRaisingIdea ul li {
+        width: 10%;
+    }
+    .FundRaisingIdea button {
+        width:60%;
+    }
 }

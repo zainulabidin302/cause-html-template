@@ -55,7 +55,8 @@ class Featured extends Component {
     render() {
         return (
             <div className="Featured">
-                <h1>Featured Compaigns</h1>
+            
+                <h2>Featured Compaigns</h2>
                 
                 <div className="cards-container">
                     
@@ -68,7 +69,9 @@ class Featured extends Component {
                     }
                     
                 </div>
-                <button>Start a Compaign</button>
+                <div className="compaign-button">
+                    <button>Start a Compaign</button>
+                </div>
             </div>
         );
     }

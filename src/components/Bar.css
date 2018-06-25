@@ -1,0 +1,14 @@
+.Bar {
+    background: #dee1dd;
+    height: 20px;
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+
+}
+.Bar .inner {
+    border-radius: 20px;
+    color:white;
+    text-align: center;
+    background-color: #419885;
+}

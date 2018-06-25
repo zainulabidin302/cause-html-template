@@ -1,5 +1,51 @@
-.Stats .stat, .Stats .stat h2 {
+.Stats {
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    max-width: 799px;
+}
+
+.Stats .stat img {
+    width: 48px;
+}
+.Stats .stat {
     display: inline-block;
-    padding: 2px;
-    margin: 10px;
+    color: #404041;
+    width: 33%;    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+
+}
+.Stats .stat h2 small {
+    font-size: 14px;
+    color: #404041;
+    font-weight: lighter;
+    
+}
+.Stats .stat h2 {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    margin-left: 15px;
+    font-size: 1.5em;
+    line-height: 1.2em;
+}
+@media screen and (min-width: 701px) and (max-width: 800px) {
+    .Stats .stat h2 { margin-left: 33px; margin-top: 20px; }
+}
+@media screen and (min-width: 600px) and (max-width: 700px) {
+    .Stats .stat h2 { margin-left: 25px; margin-top: 20px; }
+}
+
+@media screen and (max-width: 800px) {
+    .Stats .stat {
+        width: 100%;
+    }
+    .Stats h2 {
+        font-size: 1.2em;
+        width: 90%;
+        margin: auto;
+        margin-top: 4%;
+    }
 }

@@ -1,0 +1,21 @@
+.ForYourOrganization {
+    background: #eeeeee;
+    padding-bottom: 4%;
+}
+
+.ForYourOrganization ul li {
+    display: inline-block;
+    background: white;
+}
+.ForYourOrganization ul li text {
+    padding: 2%;   
+}
+
+.ForYourOrganization h2 {
+    margin:0;
+    padding: 0;
+    padding: 2%;
+    font-size:  1.5em;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 0.5em;
+}
